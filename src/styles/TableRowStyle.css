@@ -1,0 +1,25 @@
+.action-button-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.action-column{
+    width: 7%;
+}
+
+.action-button-accept{
+    width: 90%;
+    font-size: 1em;
+    background-color: green;
+    color: white;
+    margin-right: 0.4em;
+    padding: 0.2em;
+}
+.action-button-reject{
+    width: 90%;
+    font-size: 1em;
+    background-color: red;
+    color: white;
+    padding: 0.2em;
+}

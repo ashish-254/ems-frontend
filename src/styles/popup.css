@@ -1,0 +1,141 @@
+
+.custom-alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+
+.custom-alert-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border: 2px solid red;
+  font-size: 1.3em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.close-alert-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.close-alert {
+  margin-top: 10px;
+  padding: 3px;
+  background-color: rgb(241, 180, 180);
+  color: black;
+  font-size: 0.8em;
+  margin: 0.5em 1.2em;
+}
+
+.confirm-alert{
+  margin-top: 10px;
+  padding: 3px;
+  background-color: rgb(117, 223, 117);
+  color: black;
+  font-size: 0.8em;
+  margin: 0.5em 1.2em;
+}
+
+
+
+.custom-alert-readmore {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.custom-alert-content-readmore {
+  background-color: white;
+  padding: 20px;
+  width: 40%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgb(3, 214, 56);
+  font-size: 1.3em;
+}
+
+.close-alert-div-readmore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-alert-readmore {
+  margin-top: 10px;
+  padding: 3px;
+  color: black;
+  font-size: 0.8em;
+}
+
+.custom-alert-success {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+
+.custom-alert-content-success {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  border: 2px solid green;
+  font-size: 1.3em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.close-alert-div-success {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.close-alert-success {
+  margin-top: 10px;
+  padding: 3px;
+  background-color: rgb(86, 167, 86);
+  color: white;
+  font-size: 0.8em;
+  margin: 0.5em 1.2em;
+}
+
+@media(max-width: 900px){
+  .custom-alert-content-readmore {
+    width: 60%;
+  }
+}

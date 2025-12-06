@@ -1,0 +1,181 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 45%;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #dbd8e3;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.card p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.left-section{
+  width: 60%;
+  padding-left: 0.68em;
+}
+.right-section{
+  width: 40%;
+}
+
+.larger {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.field {
+  padding: 2px 0px;
+  font-size: 1.1em;
+}
+
+.smaller {
+  font-size: 1em;
+}
+
+.project-dropdown {
+  width: 70%;
+}
+
+.field-2-label{
+  font-weight: 600;
+  padding-right: 5px;
+}
+
+.card-1 {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 45%;
+  box-sizing: border-box;
+  background-color: #dbd8e3;
+}
+
+.card-inner {
+  display: flex;
+}
+
+.assign-project{
+  padding: 5px;
+  background-color: blue;
+  color: white;
+  width: 70%;
+}
+
+.request-resourse{
+  padding: 5px;
+  background-color: blue;
+  color: white;
+  width: 50%;
+}
+
+.project-requested{
+  padding: 5px;
+  background-color: gray;
+  color: white;
+  width: 50%;
+}
+
+.left-section-1,
+.right-section-1 {
+  flex: 1;
+  padding: 0 10px;
+}
+
+.full-width-description {
+  padding: 0 10px;
+  width: 100%;
+}
+
+.field-1 {
+  padding: 2px 0px;
+  font-size: 1.1em;
+}
+
+.field-2 {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.1em;
+  padding: 5px 0px;
+}
+
+.field-2-inside {
+  display: flex;
+}
+
+.smaller-1 {
+  font-size: 1em;
+  padding-bottom: 5px;
+}
+
+.read-more{
+  background: none;
+  border: none;
+  color: blue;
+  cursor: pointer;
+}
+
+.no-pending-request-outer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-pending-request-inner {
+  display: flex;
+  background: #dbd8e3;
+  margin: 0.8em;
+  border-radius: 5px;
+  height: 10em;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4em;
+}
+
+.no-pending-request-message{
+  margin: 1em;
+}
+
+
+@media(max-width:900px) {
+
+  .card {
+    width: 80%;
+  }
+
+  .card-1 {
+    width: 80%;
+  }
+}
+
+
+@media(max-width:480px) {
+
+  .card{
+    display: block;
+  }
+
+}

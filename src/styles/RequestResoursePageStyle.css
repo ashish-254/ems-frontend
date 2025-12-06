@@ -1,0 +1,59 @@
+.req-res-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1em;
+}
+
+.inside-req-res-table {
+  background-color: #dbd8e3;
+  margin: 1em;
+  width: 90%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+}
+
+.admin-home-page-button {
+  color: green;
+}
+
+.th-id {
+  width: 5%;
+}
+
+.th-projectName {
+  width: 15%;
+}
+
+.th-managerName {
+  width: 15%;
+}
+
+.th-employeeName {
+  width: 15%;
+}
+
+.th-description {
+  width: 30%;
+}
+
+.th-action {
+  width: 20%;
+}
+
+
+@media(max-width: 800px) {
+  .inside-req-res-table {
+    width: auto;
+  }
+}

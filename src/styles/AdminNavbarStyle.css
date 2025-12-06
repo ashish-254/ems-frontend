@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.adminnavbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    flex-wrap: wrap;
+    background-color: #dbd8e3;
+}
+
+.managernavbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    flex-wrap: wrap;
+    background-color: #dbd8e3;
+}
+
+.employeenavbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    flex-wrap: wrap;
+    background-color: #dbd8e3;
+}
+
+.nav-links a {
+    color: #000000;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+li{
+    padding-left: 1em;
+}
+
+.menu li {
+    color: #000000;
+}
+
+
+.flexing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+
+.page-links{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+}
+
+.page-links-link{
+    color: black;
+    font-size: 1.2em;
+    background: none;
+    border: none;
+    margin: 0px;
+    padding: 5px 5px;
+}
+
+.active{
+    color: rgb(255, 255, 255);
+    font-weight: 5px;
+    font-size: 1.2em;
+    background: none;
+    border: none;
+    margin: 0px;
+    background-color: rgb(23, 23, 182);
+    padding: 0px 5px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.page-links-link:hover{
+    font-weight: 600;
+}
+
+.add-employee button{
+    padding: 0.5em 2em;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+.manager-button{
+    width: 155px;
+}
+
+.add-button:active{
+    background-color: green;
+}
+
+.button-style{
+    display: flex;
+}
+
+.logout button{
+    padding: 0.5em 1em;
+    background-color: rgb(202, 81, 33);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+@media(max-width:700px) {
+  .adminnavbar{
+    flex-direction: column;
+  }
+  .menu{
+    font-size: 14px;
+  }
+
+}
+
+@media(max-width:570px){
+    .adminnavbar{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .manager-button{
+        width: 0px;
+    }
+    .flexing{
+        width: auto;
+    }
+
+}

@@ -1,0 +1,153 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner_container {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #dbd8e3;
+    border: 7px solid black;
+    width: 700px;
+    border-radius: 15px;
+}
+
+
+.title {
+    background-color: #5c5470;
+    color: white;
+    margin: 0.7em;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title_name {
+    font-size: 2.5em;
+}
+
+.data {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.rows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs {
+    width: 100%;
+    display: flex;
+    padding: 3px;
+    margin: 3px;
+}
+
+.input_label {
+    width: 30%;
+    font-size: 20px;
+    padding: 3px;
+    width: 30%;
+}
+
+.input_field {
+    width: 60%;
+    font-size: medium;
+    width: 90%;
+    padding: 7px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.input_field::placeholder {
+    color: black;
+}
+
+.input_field:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+}
+
+.submit {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.submit_btn {
+    margin: 1em;
+    width: 90%;
+    padding: 9px;
+    background-color: #5c5470;
+    color: #dbd8e3;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.errors {
+    color: red;
+    font-size: 15px;
+    width: auto;
+    margin-left: 5px;
+}
+
+.message {
+    font-size: 1.3em;
+    margin-bottom: 0em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+@media(max-width: 720px) {
+
+    .inner_container {
+        margin-top: 2em;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #dbd8e3;
+        border: 7px solid black;
+        width: 400px;
+        border-radius: 15px;
+    }
+
+    .inputs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input_field {
+        width: 95%;
+    }
+
+    .input_label {
+        width: 95%;
+    }
+
+    #title_name {
+        font-size: 2em;
+    }
+
+
+
+}

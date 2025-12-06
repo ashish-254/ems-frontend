@@ -1,0 +1,23 @@
+.navbar
+{
+    background: #060808;
+    color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #24193c;
+}
+
+.site-header
+{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    margin: 0;
+    padding: 0.5em;
+}
+.logout-button{
+    margin-right: 1em;
+}
